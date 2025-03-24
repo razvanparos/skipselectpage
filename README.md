@@ -1,16 +1,42 @@
-This is my approach for the skip selection page using React, Typescript and TailwindCSS with focus on responsiveness, UI/UX, semantic HTML and reusable components.
+# Skip Selection Page
 
-HEADER COMPONENT
--on the example page the header was not displayed correctly on mobile devices, so I improved it with a sidebar menu where users can navigate to previous steps.
--kept the progress steps and added a progress bar to improve user experience.
+This is an approach for the skip selection page using **React**, **TypeScript**, and **TailwindCSS**, with a focus on **responsiveness, UI/UX, semantic HTML, and reusable components**.
 
-FILER COMPONENT
--added a filter component for the scalability of the project in case in the future more skip options are added.
--users can select the skip size range, price range, road allowance and if suitable for heavy waste.
+## Features
 
-SKIP SELECTOR
--clear 3 column grid for improved visability 
--each skip has a card with the corresponding information
--when a card is selected, the user can continue with the next step or click the card again to go back
--used smooth transitions for UI/UX improvement
+### 🚀 Header Component
+- Fixed display issues on mobile devices by adding a **sidebar menu** for navigation to previous steps.
+- Retained progress steps and introduced a **progress bar** for a better user experience.
 
+### 🎛️ Filter Component
+- Added a **filter component** to enhance scalability in case more skip options are added in the future.
+- Users can filter by:
+  - **Skip size range**
+  - **Price range**
+  - **Road allowance**
+  - **Suitability for heavy waste**
+
+### 🏗️ Skip Selector
+- Implemented a **clear 3-column grid** for improved visibility.
+- Each skip is displayed as a **card** with corresponding information.
+- Users can:
+  - **Select a skip card** to proceed to the next step.
+  - **Deselect** by clicking again.
+- Added **smooth transitions** to enhance UI/UX.
+
+---
+
+## 📌 Tech Stack
+- ⚛ **React**
+- 🟦 **TypeScript**
+- 🎨 **TailwindCSS**
+
+## 📷 Preview
+*(Add a screenshot of your UI here if available.)*
+
+## 🛠️ Installation & Usage
+```sh
+git clone https://github.com/your-repo.git
+cd your-repo
+npm install
+npm start

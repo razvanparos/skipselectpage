@@ -2,6 +2,9 @@
 
 This is an approach for the skip selection page using **React**, **TypeScript**, and **TailwindCSS**, with a focus on **responsiveness, UI/UX, semantic HTML, and reusable components**.
 
+## 📷 Preview
+![Skip Selection Page](./Screenshot_1.png)
+
 ## Features
 
 ### 🚀 Header Component
@@ -31,12 +34,3 @@ This is an approach for the skip selection page using **React**, **TypeScript**,
 - 🟦 **TypeScript**
 - 🎨 **TailwindCSS**
 
-## 📷 Preview
-*(Add a screenshot of your UI here if available.)*
-
-## 🛠️ Installation & Usage
-```sh
-git clone https://github.com/your-repo.git
-cd your-repo
-npm install
-npm start
